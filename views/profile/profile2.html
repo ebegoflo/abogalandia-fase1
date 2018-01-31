@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Perfil</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+	<link rel="stylesheet" href="css/profile.css">
+</head>
+<body>
+  <nav class="navbar navbar-default">
+		  <div class="container-fluid background">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <img src="../../assets/images/logo2.png" alt="torre romana" class="logo"></a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		      <ul class="nav navbar-nav navbar-right">
+		        <li><a href="../log-in/in.html">Inicio</a></li>
+						<li ><a href="profile.html">Mi Perfil</a></li>
+						<li ><a href="../follow/follow.html">Contactos</a></li>
+						<li ><a href="logout.html">Cerrar sesión</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+
+	<div class="container-fluid bkg-container">
+	<section class="text-center bckg-perfil" >
+		<div class="row">
+		 			<img src="../../assets/images/images.jpg" alt="" class="img-circle">
+		</div>
+		<div class="row">
+				<p> Usuario: Ebenezer Gomez></p>
+		</div>
+		<div class="row">
+        <p> email: ebenezergf@gmail.com></p>
+		</div>
+	</section>
+
+			<div class="row">
+				<aside class="sidenav col-md-4">
+						<!-- info del perfil -->
+						<p> Licenciado en Derecho, Cedula Profesionalnumero 58979 .</p>
+						<span><i class="fa fa-map-marker" aria-hidden="true"></i> CDMX, México</span>
+						<span><i class="fa fa-calendar" aria-hidden="true"></i> Se unió en Enero 2018</span>
+				</aside>
+				<div class="col-md-8">
+					<!-- esta linea pinta el textarea para que el usuario escriba el post -->
+          <form  class="post">
+			      <div class="form-group">
+    		      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Qué está pasando?" name="status" rows="3"></textarea>
+				      <input type="submit" name="submit" value="Publicar">
+  		      </div>
+		      </form>
+				</div>
+			</div>
+
+			<article class="row">
+
+					<!-- se pinta en pantalla el post del usuario -->
+					<div class="panel panel-default col-md-offset-4 col-md-8"><?php echo $row['post']; ?>
+							<div class="row">
+                <p>Si requieres ayuda con un problema legal, tengo mas de 10 años de experiencia, con gustopuedo brindarte asesoria</p>
+								<div class="col-md-offset-8 col-md-4">
+									<span> <i class="fa fa-heart fa-post" aria-hidden="true"></i></span>
+									<span> <i class="fa fa-comment fa-post" aria-hidden="true"></i></span>
+									<span> <i class="fa fa-trash fa-post" aria-hidden="true"></i></span>
+								</div>
+							</div>
+					</div>
+
+			</article>
+
+
+
+	</div>
+</body>
+</html>

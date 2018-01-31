@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+  margin:0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#2B75B5,#011014);
+  height:100%;
+  margin:0px;
+}
+
+/* ----splash ----*/
+  .index-bg {
+    background-image: url("../assets/images/splash2.png");
+    background-position: center;
+    background-size: cover;
+  }
+
+  .vh-total {
+    height: 100vh;
+  }
+
+  /*--- screen ---*/
+  .screen-login {
+    display: none;
+  }
+
+/* ---- xs ---- */
+.btn {
+  background-color: #FFFFFF;
+  color: #2B75B5;
+  margin-top: 60%;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.img {
+  margin-top: 100px;
+}
+
+/* ---- md/lg ---- */
+.btn-desk {
+  font-size: 25px;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.img-desk {
+  margin-top: 100px;
+}

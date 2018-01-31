@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 100px;
+}
+
+input {
+  margin-bottom: 20px;
+}
+
+/* ---- xs ----*/
+.back {
+  color: #2B75B5;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.btn {
+  background: linear-gradient(#2B75B5,#011014);
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  padding: 20px;
+}
+
+.fa {
+ margin-bottom: 20px;
+}
+
+.form {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+/* ---- sm/md/lg ----*/
+.desktop {
+  font-size: 25px;
+}
+
+.desk > h1 {
+  font-size: 50px;
+  margin-bottom: 100px;
+}
+
+.back-desk {
+  font-size: 50px;
+  margin-top: 10px;
+}
+
+.btn-desk {
+  font-size: 25px;
+  margin-bottom: 30px;
+  margin-top: 200px;
+  padding: 20px;
+}
+
+.click-desk > h6 {
+  font-size: 15px;
+}
+
+.form-desk {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+.form-desk > .fa {
+  font-size: 25px;
+}
